@@ -1,45 +1,49 @@
-🚀 Day 6 – Mastering Flutter: Top 10 Widgets for Beautiful UIs
-Welcome to Day 6 of my Flutter learning journey!
-Today’s focus was on understanding and applying 10 essential widgets that play a crucial role in building clean, modern, and interactive Flutter UIs. These widgets are commonly used in real-world app development to enhance layout, organization, and user interaction.
+# 🌟 Day 6 – Mastering Flutter: Top 10 Widgets for Building Clean UIs
 
-✅ Topics & Widgets Covered
-✅ Container – for basic layout, styling, padding, and margins
+This repository is part of my **Mastering Flutter** series.
 
-✅ Expanded – to make widgets expand and fill available space within Column/Row
+On **Day 6**, I explored and implemented the **10 most commonly used widgets in Flutter**, essential for building attractive, responsive, and well-structured UIs.
 
-✅ ListTile – for clean, tappable rows with text, icons, and avatars
+---
 
-✅ Stack – allows overlapping widgets (e.g., text on images)
+## 📌 Topics Covered
 
-✅ SizedBox – for giving fixed height/width and adding spacing
+✅ Understanding layout behavior using Flutter’s powerful widget system  
+✅ Combining multiple widgets to build interactive app screens  
+✅ Handling scrolling content and flexible UI structures
 
-✅ Divider – to visually separate widgets
+---
 
-✅ ListView.builder – for creating dynamic, scrollable lists
+## ✅ Widgets Implemented
 
-✅ AppBar – to add an app title and actions at the top of the screen
+- ✅ **Container** – Used for layout, styling, and positioning
+- ✅ **Expanded** – Makes child widgets expand to fill available space
+- ✅ **ListTile** – A ready-to-use row with leading/trailing widgets and tap support
+- ✅ **Stack** – Allows widgets to overlap (e.g., image + text overlay)
+- ✅ **SizedBox** – Used for spacing or fixed size widgets
+- ✅ **Divider** – Separates content with a visual line
+- ✅ **ListView.builder** – Dynamically builds scrollable content
+- ✅ **AppBar** – Adds a title bar with built-in styling
+- ✅ **CircleAvatar** – Displays circular images like profile pictures
+- ✅ **RichText** – Allows multiple text styles in one block of text
 
-✅ CircleAvatar – to display rounded profile pictures or initials
+---
 
-✅ RichText – to style parts of a string differently (e.g., bold, colored text)
+## ✨ What I Built
 
-📸 Screenshots
-(Attach screenshots of your UI showcasing different widgets.)
+A minimal yet functional Flutter screen featuring:
 
-🛠 What I Built
-A simple app UI that uses all 10 widgets to create a clean and functional layout.
-This includes a ListTile with profile image, a scrollable list of items, dividers, and structured layout using Expanded, SizedBox, and Stack.
+- A **ListTile** displaying name, role, time, and profile image
+- A **ListView.builder** for dynamic content rendering
+- **Expanded** to handle flexible layout constraints
+- Clean visual layout using **SizedBox**, **Divider**, **Stack**, and **RichText**
 
-📚 Learnings
-How to organize widgets inside Column using Expanded
+---
 
-Making scrollable dynamic lists with ListView.builder
+## 🚀 How to Run
 
-Creating neat UI layouts with common reusable widgets
+Clone the repo and run:
 
-🔗 Run This App
-bash
-Copy
-Edit
+```bash
 flutter pub get
 flutter run
