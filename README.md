@@ -23,7 +23,8 @@ Today’s focus was on understanding and applying 10 essential widgets that play
 
 ✅ RichText – to style parts of a string differently (e.g., bold, colored text)
 
-
+📸 Screenshots
+(Attach screenshots of your UI showcasing different widgets.)
 
 🛠 What I Built
 A simple app UI that uses all 10 widgets to create a clean and functional layout.
@@ -38,6 +39,7 @@ Creating neat UI layouts with common reusable widgets
 
 🔗 Run This App
 bash
-Copy and paste these commands
+Copy
+Edit
 flutter pub get
 flutter run
